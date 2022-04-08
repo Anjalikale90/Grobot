@@ -1,0 +1,194 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "Name",
+         "patterns": ["What is your name?","who are you?","Introduce yourself?","How old are you?"],
+         "responses": ["Hi, my name is Gro. I am here to assist you"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["By offering support for mental wellbeing","I can lend you my ears","I offer you help for your mental wellbeing"],
+         "context": [""]
+        },
+        {"tag": "treatment_tips",
+         "patterns": ["How to become involved in treatment?","What should I keep in mind if I begin treatment?"],
+         "responses":["Since beginning treatment is a big step for individuals and families, it can be very overwhelming.To know more feel free to ask me anything"],
+         "context": [""]
+        },
+        {"tag": "definition",
+         "patterns": ["What does it mean to have a mental illness?", "What is mental health illness","Describe mental health illness","What is mental health disorder"],
+         "responses": ["Mental illnesses are health conditions that disrupt a person's thoughts, emotions, relationships, and daily functioning.","Mental illness ,also called mental health disorders, refers to a wide range of mental health conditions, disorders that affect your mood, thinking and behavior. Examples of mental disorders include depression, anxiety disorders, eating disorders and addictive behaviors.","Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act."],
+         "context": [""]
+        },
+        {"tag": "affects_whom",     
+         "patterns": ["Who does mental illness affect?", "Who is affected by mentall illness"],        
+         "responses": ["It is estimated that mental illness affects 1 in 5 adults, and that 1 in 24 adults have a serious mental illness."],       
+         "context": [""]    
+        },
+        {"tag": "what_causes",         
+         "patterns": ["What causes mental illness?","What leads to mental illness?","how does one get mentally ill?"],         
+         "responses": ["Symptoms of mental health disorders vary depending on the type and severity of the condition."],       
+         "context": [""]        
+        },
+        {"tag": "recover",        
+         "patterns": ["Can people with mental illness recover?","Is it possible to recover from mental illness"],        
+         "responses": ["When healing from mental illness, early identification and treatment are of vital importance. Based on the nature of the illness, there are a range of effective treatments available. For any type of treatment, it is essential that the person affected is proactive and fully engaged in their own recovery process. Many people with mental illnesses who are diagnosed and treated respond well, although some might experience a return of symptoms. Even in such cases, with careful monitoring and management of the disorder, it is still quite possible to live a fulfilled and productive life."],       
+         "context": [""]        
+        },
+        {"tag": "steps",       
+         "patterns": ["I know someone who appears to have such symptoms?","What are the steps to be followed incase of symptoms"],        
+         "responses": ["We encourage those with symptoms to talk to their friends and family members and seek the counsel of a mental health professional. The sooner the mental health condition is identified and treated, the sooner they can get on the path to recovery.If you know someone who is having problems, don't assume that the issue will resolve itself. Let them know that you care about them, and that there are treatment options available that will help them heal. Speak with a mental health professional or counselor if you think your friend or family member is experiencing the symptoms of a mental health condition. If the affected loved one knows that you support them, they will be more likely to seek out help."],        
+         "context": [""]       
+        },	
+        {"tag": "find_help",
+         "patterns": ["How to find mental health professional for myself","How to find mental health professional?"],
+         "responses": ["Feeling comfortable with the professional you or your child is working with is critical to the success of the treatment. Finding the professional who best fits your needs may require research. Start by searching for providers in your area."],
+         "context": [""]
+        },
+        {"tag": "treatement_options",
+         "patterns": ["What treatment options are available?","How can one recover?"],
+         "responses": ["Just as there are different types of medications for physical illness, different treatment options are available for individuals with mental illness. Treatment works differently for different people. It is important to find what works best for you or your child."],
+         "context": [""]
+        },
+        {"tag": "professional_types",
+         "patterns": ["What is the difference between mental health professionals?","What are the different types of mental health professionals present?"],
+         "responses":["There are many types of mental health professionals. The variety of providers and their services may be confusing. Each have various levels of education, training, and may have different areas of expertise. Finding the professional who best fits your needs may require some research."],
+         "context": [""]
+        },
+        {"tag": "right_professional",
+         "patterns": ["How can I find a mental health professional right myself?","How to find the right mental health professional?"],
+         "responses":["Feeling comfortable with the professional you or your child is working with is critical to the success of your treatment. Finding the professional who best fits your needs may require some research."],
+         "context": [""]
+        },
+        {"tag": "alone",
+         "patterns": ["Can i learn to be happy alone?","Can I change my feeling of being worthless to everyone?","How can I stop feeling empty?","I feel alone"],
+         "responses": ["You should start by speaking about what how you feel.", "It sounds like you want to get better, but perhaps need some help to get over the hump.  Many of the symptoms you have described are consistent with a person who is dealing with depression.   Depression is a treatable condition.  Typically, if these symptoms have persisted for more than two weeks, then it is a good idea to seek professional help.   Someone who is trained in dealing with depression.  Initially, a comprehensive assessment would be completed to rule out any other causes for your symptoms and to determine the exact nature of your presenting concern.  Then, in collaboration with one another, a tailored treatment plan would be developed, focusing on how to best help you reach your goals.  The good news is that their is hope for getting better! You don't have to do it alone.  Allow me to be your ally in healing."],
+         "context": [""]
+        },
+        {"tag": "depression",
+         "patterns": ["What is depression?","How do I overcome my  depression?","Why do I crave depression?","Is there anything I can do about my depression?","I'm very depressed?"],
+         "responses": ["The key to self-treatment for depression is to be open, accepting, and loving toward yourself and what you’re going through.","Depression is a mood disorder that causes a persistent feeling of sadness and loss of interest. Also called major depressive disorder or clinical depression, it affects how you feel, think and behave and can lead to a variety of emotional and physical problems. You may have trouble doing normal day-to-day activities"],
+         "context": [""]
+        },
+        {"tag": "anxiety",
+         "patterns": ["What is anxiety?","What is anxiety attack?"],
+         "responses": ["Experiencing occasional anxiety is a normal part of life. However, people with anxiety disorders frequently have intense, excessive and persistent worry and fear about everyday situations. Often, anxiety disorders involve repeated episodes of sudden feelings of intense anxiety and fear or terror that reach a peak within minutes","Anxiety disorders are a type of mental health condition. Anxiety makes it difficult to get through your day. Symptoms include feelings of nervousness, panic and fear as well as sweating and a rapid heartbeat. Treatments include medications and cognitive behavioral therapy. Your healthcare can design a treatment plan that’s best for you."],
+         "context": [""]
+        },
+        {"tag": "stress",
+         "patterns": ["What is stress?","What is the impact of stress?"],
+         "responses": ["Stress during development has often been regarded as a potentially disruptive force, capable of inducing disease states if overly prolonged or exceedingly intense. It can also, however, favor resiliency and adaptive processing that are crucial to navigating a human life. Countless studies have indicated that severe neglect during infancy, both in humans and in laboratory animals, results in long-term abnormal development of biological systems involved in the regulation of emotions, but the response to stress is also a key driver to individual development. The biological system responsible for physical reactions to a stressor not only coordinates immediate responses to external challenges but also functions as a tool that enables the characterization of an environment as favorable or threatening. Thus the stress response system promotes long-term adaptive processes that prepare the individual to cope with specific external challenges.","Stress is a normal physical response to events that make one feel threatened or that upset one’s balance in some way. When the body senses danger—real or imagined—the body's defenses kick into high gear in a rapid, automatic process known as the ‘fight-or-flight’ reaction, or the stress response. The nervous system responds by releasing a flood of stress hormones, including adrenaline and cortisol, that rouse the body for emergency action."],
+         "context": [""]
+        },
+        {"tag": "Social_Phobia",
+         "patterns": ["What is Social Phobia?"],
+         "responses": ["Social Phobia, or Social Anxiety Disorder, is an anxiety disorder characterized by overwhelming anxiety and excessive self-consciousness in everyday social situations. Social phobia can be limited to only one type of situation, such as a fear of speaking in formal or informal situations, or eating or drinking in front of others. In its most severe form, social phobia may be so broad that a person experiences symptoms almost anytime they are around other people"],
+         "context": [""]
+        },
+        {"tag": "Types",
+         "patterns": ["What are different types of mental health issues and illnesses?"],
+         "responses": ["Different types of mental health issues and illnesses are Anxiety , Behavioural and emotional disorders , Bipolar affective disorder , Depression , Dissociation and dissociative disorders , Eating disorders , Obsessive compulsive disorder , Paranoia , Post-traumatic stress disorder , Psychosis , Schizophrenia "],
+         "context": [""]
+        },
+        {"tag": "Behavioural_and_emotional_disorders",
+         "patterns": ["What is Behavioural and emotional disorders "],
+         "responses": ["The most common disruptive behaviour disorders include oppositional defiant disorder (ODD), conduct disorder (CD) and attention deficit hyperactivity disorder (ADHD). These three behavioural disorders share some common symptoms, so diagnosis can be difficult and time consuming. "],
+         "context": [""]
+        },
+        {"tag": "Bipolar_affective_disorder",
+         "patterns": ["What is Bipolar affective disorder"],
+         "responses": ["Bipolar affective disorder is a type of mood disorder, previously referred to as ‘manic depression’. A person with bipolar disorder experiences episodes of mania (elation) and depression. The person may or may not experience psychotic symptoms. The exact cause is unknown, but a genetic predisposition has been clearly established. Environmental stressors can also trigger episodes of this mental illness."],
+         "context": [""]
+        },
+        {"tag": "Dissociation_and_dissociative_disorders",
+         "patterns": ["What is Dissociation and dissociative disorders"],
+         "responses": ["Dissociation is a mental process where a person disconnects from their thoughts, feelings, memories or sense of identity. Dissociative disorders include dissociative amnesia, dissociative fugue, depersonalisation disorder and dissociative identity disorder."],
+         "context": [""]
+        },
+        {"tag": "Eating_disorders",
+         "patterns": ["What is Eating disorders"],
+         "responses": ["Eating disorders include anorexia, bulimia nervosa and other binge eating disorders. Eating disorders affect females and males and can have serious psychological and physical consequences."],
+         "context": [""]
+        },
+        {"tag": "Obsessive_compulsive_disorder",
+         "patterns": ["What is Obsessive compulsive disorder"],
+         "responses": ["Obsessive compulsive disorder (OCD) is an anxiety disorder. Obsessions are recurrent thoughts, images or impulses that are intrusive and unwanted. Compulsions are time-consuming and distressing repetitive rituals. Ttreatments include cognitive behaviour therapy (CBT), and medications"],
+         "context": [""]
+        },
+        {"tag": "Paranoia",
+         "patterns": ["What is Paranoia"],
+         "responses": ["Paranoia is the irrational and persistent feeling that people are ‘out to get you’. Paranoia may be a symptom of conditions including paranoid personality disorder, delusional (paranoid) disorder and schizophrenia. Treatment for paranoiainclude medications and psychological support."],
+         "context": [""]
+        },
+        {"tag": "Post-traumatic_stress",
+         "patterns": ["What is Post-traumatic stress"],
+         "responses": ["Post-traumatic stress disorder (PTSD) is a mental health condition that can develop as a response to people who have experienced any traumatic event. This can be a car or other serious accident, physical or sexual assault, war-related events or torture, or natural disasters such as bushfires or floods."],
+         "context": [""]
+        },
+        {"tag": "psychosis",
+         "patterns": ["What is psychosis "],
+         "responses": ["People affected by psychosis can experience delusions, hallucinations and confused thinking.. Psychosis can occur in a number of mental illnesses, including drug-induced psychosis, schizophrenia and mood disorders. Medication and psychological support can relieve, or even eliminate, psychotic symptoms."],
+         "context": [""]
+        },
+        {"tag": "Schizophrenia",
+         "patterns": ["What is Schizophrenia"],
+         "responses": ["Schizophrenia is a complex psychotic disorder characterised by disruptions to thinking and emotions, and a distorted perception of reality. Symptoms of schizophrenia vary widely but may include hallucinations, delusions, thought disorder, social withdrawal, lack of motivation and impaired thinking and memory. People with schizophrenia have a high risk of suicide. Schizophrenia is not a split personality."],
+         "context": [""]
+        },
+        {"tag": "prevent",
+         "patterns": ["Can you prevent mental health problems?"],
+         "responses": ["We can all suffer from mental health challenges, but developing our wellbeing, resilience, and seeking help early can help prevent challenges becoming serious."],
+         "context": [""]
+        },
+        {"tag": "cures",
+         "patterns": [" Are there cures for mental health problems?"],
+         "responses": ["It is often more realistic and helpful to find out what helps with the issues you face. Talking, counselling, medication, friendships, exercise, good sleep and nutrition, and meaningful occupation can all help."],
+         "context": [""]
+        },
+        {"tag": "causes",
+         "patterns": ["What causes mental health problems?"],
+         "responses": ["Challenges or problems with your mental health can arise from psychological, biological, and social, issues, as well as life events."],
+         "context": [""]
+        },
+        {"tag": "someone",
+         "patterns": [" How do I deal with someone telling me what to do?"," What should I do if I’m worried about someone , friend or relative?"],
+         "responses": ["Some people may advise you on good evidence of what works with the best of intentions, but it’s important to find out what works best for you.","This may depend on your relationship with them. Gently encouraging someone to seek appropriate support would be helpful to start with."],
+         "context": [""]
+        },
+        {"tag": "Talk",
+         "patterns": ["how do I talk about my mental illness"],
+         "responses": ["You may feel more comfortable opening up to friends or family than professionals, or you may find it easier to approach a professional (such as your doctor) first. There's no right or wrong way round. But the people closest to us can often be a valuable source of support.","Seeking help is often the first step towards getting and staying well, but talking about a mental health problem isn't always easy. It's normal to feel nervous about speaking about your health to a trusted friend or family member - and approaching your doctor or employer for help can seem overwhelming."],
+         "context": [""]
+        },
+        {"tag": "Happy",
+         "patterns": ["I am happy ", "I am cheerful","I am cheery"],
+         "responses": ["It's good to see you happy","I am glad!"],
+         "context": [""]
+        },
+        {"tag": "Joke",
+         "patterns": ["Tell me a joke"],
+         "responses": ["What animals can jump higher than the Sydney Harbour Bridge?.....All of them - bridges cannot jump ","what kind of cloths does a kangaroos wear...... jumpsuits","Why was broom late? ..... he over-swept!"],
+         "context": [""]
+        }
+
+   ]
+}
