@@ -1,2 +1,2 @@
 # Grobot
-An AI chatbot for mental health assistance 
+ AI Chatbot for Mental Health Assistance Using Machine Learning and NLP
