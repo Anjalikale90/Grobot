@@ -3,14 +3,7 @@
 Created on Mon Apr  4 13:25:22 2022
 
 @author: Anjali
-"""
 
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Mar 29 16:56:11 2022
-
-@author: ankita
-"""
 
 import nltk
 from nltk.stem import WordNetLemmatizer
@@ -33,7 +26,7 @@ words=[]
 classes = []
 documents = []
 ignore_words = ['?', '!']
-data_file = open('data040422.json').read()
+data_file = open('data.json').read()
 intents = json.loads(data_file)
 
 
